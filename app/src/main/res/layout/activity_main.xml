@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="20dp"
+    android:orientation="vertical"
+    tools:context="com.example.sauceda.applotus.MainActivity">
+
+
+    <TextView
+        android:id="@+id/txtOpcion"
+        android:text="REGISTRARSE COMO:"
+        android:textAlignment="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+    <Button
+        android:id="@+id/btnRCUsuario"
+        android:layout_below="@+id/txtOpcion"
+        android:layout_marginTop="20dp"
+        android:text="USUARIO"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/btnRCPsicologo"
+        android:layout_below="@+id/btnRCUsuario"
+        android:text="PSICOLOGO"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
