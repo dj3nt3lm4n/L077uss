@@ -15,7 +15,7 @@
 
     <EditText
         android:id="@+id/edtNombresUsuario"
-        android:hint="Nombre"
+        android:hint="Nombre "
         android:inputType="text"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
@@ -39,7 +39,7 @@
         android:layout_height="wrap_content">
 
         <EditText
-            android:id="@+id/edtCorreoUsuario"
+            android:id="@+id/edtCorreoUsuarios"
             android:hint="Correo"
             android:inputType="textEmailAddress"
             android:layout_width="match_parent"
