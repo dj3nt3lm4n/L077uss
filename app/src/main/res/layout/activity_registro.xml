@@ -40,7 +40,7 @@
 
         <EditText
             android:id="@+id/edtCorreoUsuario"
-            android:hint="Correo"
+            android:hint="Correo de Usuario "
             android:inputType="textEmailAddress"
             android:layout_width="match_parent"
             android:layout_height="wrap_content" />
